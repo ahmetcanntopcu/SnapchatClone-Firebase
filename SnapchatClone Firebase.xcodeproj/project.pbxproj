@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2137EFD328AD8039003C74F6 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137EFD228AD8039003C74F6 /* UserSingleton.swift */; };
 		21A2363328AB736E0022DCFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2363228AB736E0022DCFD /* AppDelegate.swift */; };
 		21A2363528AB736E0022DCFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2363428AB736E0022DCFD /* SceneDelegate.swift */; };
 		21A2363728AB736E0022DCFD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2363628AB736E0022DCFD /* SignInVC.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2137EFD228AD8039003C74F6 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		21A2362F28AB736E0022DCFD /* SnapchatClone Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapchatClone Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A2363228AB736E0022DCFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21A2363428AB736E0022DCFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2137EFD128AD800E003C74F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2137EFD228AD8039003C74F6 /* UserSingleton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		21A2362628AB736E0022DCFD = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		21A2363128AB736E0022DCFD /* SnapchatClone Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				2137EFD128AD800E003C74F6 /* Model */,
 				21F9E97028ABCCEC003A3126 /* Delegates */,
 				21F9E96F28ABCCB8003A3126 /* ViewControllers */,
 				21A2363828AB736E0022DCFD /* Main.storyboard */,
@@ -438,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2137EFD328AD8039003C74F6 /* UserSingleton.swift in Sources */,
 				21F9E96A28ABCC4B003A3126 /* FeedVC.swift in Sources */,
 				21A2363728AB736E0022DCFD /* SignInVC.swift in Sources */,
 				21A2363328AB736E0022DCFD /* AppDelegate.swift in Sources */,
