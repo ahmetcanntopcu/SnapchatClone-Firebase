@@ -11,8 +11,16 @@ class SnapVC: UIViewController {
 
     @IBOutlet weak var timeLeftLabel: UILabel!
     
+    var selectedSnap : Snap?
+    var selectedTime : Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let time = selectedTime {
+            timeLeftLabel.text = "Time Left: \(time)"
+
+        }
 
     }
     

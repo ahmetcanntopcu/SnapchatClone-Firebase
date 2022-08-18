@@ -18,6 +18,8 @@
 		21A2365428AB73710022DCFD /* SnapchatClone_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2365328AB73710022DCFD /* SnapchatClone_FirebaseUITests.swift */; };
 		21A2365628AB73710022DCFD /* SnapchatClone_FirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2365528AB73710022DCFD /* SnapchatClone_FirebaseUITestsLaunchTests.swift */; };
 		21A2366328AB8AF90022DCFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21A2366228AB8AF90022DCFD /* GoogleService-Info.plist */; };
+		21AB191728AE603F006B46B5 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB191628AE603F006B46B5 /* FeedTableViewCell.swift */; };
+		21AB191928AE6651006B46B5 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB191828AE6651006B46B5 /* Snap.swift */; };
 		21F9E96A28ABCC4B003A3126 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9E96928ABCC4B003A3126 /* FeedVC.swift */; };
 		21F9E96C28ABCC57003A3126 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9E96B28ABCC57003A3126 /* UploadVC.swift */; };
 		21F9E96E28ABCC84003A3126 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9E96D28ABCC84003A3126 /* SettingsVC.swift */; };
@@ -60,6 +62,8 @@
 		21A2365328AB73710022DCFD /* SnapchatClone_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatClone_FirebaseUITests.swift; sourceTree = "<group>"; };
 		21A2365528AB73710022DCFD /* SnapchatClone_FirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatClone_FirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		21A2366228AB8AF90022DCFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21AB191628AE603F006B46B5 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		21AB191828AE6651006B46B5 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		21F9E96928ABCC4B003A3126 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		21F9E96B28ABCC57003A3126 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		21F9E96D28ABCC84003A3126 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2137EFD228AD8039003C74F6 /* UserSingleton.swift */,
+				21AB191828AE6651006B46B5 /* Snap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				21F9E96B28ABCC57003A3126 /* UploadVC.swift */,
 				21F9E96D28ABCC84003A3126 /* SettingsVC.swift */,
 				21F9E97128ABCF90003A3126 /* SnapVC.swift */,
+				21AB191628AE603F006B46B5 /* FeedTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -450,12 +456,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2137EFD328AD8039003C74F6 /* UserSingleton.swift in Sources */,
+				21AB191928AE6651006B46B5 /* Snap.swift in Sources */,
 				21F9E96A28ABCC4B003A3126 /* FeedVC.swift in Sources */,
 				21A2363728AB736E0022DCFD /* SignInVC.swift in Sources */,
 				21A2363328AB736E0022DCFD /* AppDelegate.swift in Sources */,
 				21F9E96C28ABCC57003A3126 /* UploadVC.swift in Sources */,
 				21F9E97228ABCF90003A3126 /* SnapVC.swift in Sources */,
 				21A2363528AB736E0022DCFD /* SceneDelegate.swift in Sources */,
+				21AB191728AE603F006B46B5 /* FeedTableViewCell.swift in Sources */,
 				21F9E96E28ABCC84003A3126 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
